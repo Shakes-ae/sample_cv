@@ -1,0 +1,129 @@
+{% load static %}
+
+
+
+
+<!--
+<h1>Hello World</h1>
+
+<img src="{% static 'images/brand-logo.png' %}">
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Emmanuel Oluwasegun Adeyeye</title>
+        <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+    </head>
+    <body style="background-color: lightgrey;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card card-body h-100 border-info" id="profile-wrapper">
+                        <img id="profile-pic" src="{% static 'images/Shakes.jpeg' %}">
+                        <br>
+                        <h4>Adeyeye Emmanuel Oluwasegun</h4>
+                        <p>A backend developer. I love coding and I'm open to collaborations.</p>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="card card-body h-100 border-info">
+                        <h2>A Little About Me</h2>
+                        <br>
+                        <p>
+                            I have always been in love with computers. Since I was very young, I always
+                            imagined myself creating an app or something. I got to start the process of
+                            achieving that dream when I graduated this year. I am a graduate of Achievers 
+                            University, Owo, Ondo State, Nigeria. I studied computer science and shortly 
+                            after I finished school, I was fortunate enough to get into an internship program
+                            sponsored by Zuri. 
+                        </p>
+                        <br>
+                        <p>
+                            The training, while intense gave me a feeling of my dream and it enabled me to actually
+                            build an app for the first time. Ever since, I have been improving and honing my skill.
+                            While the improvement has been slow, it has been steady. I can be contacted at <a href="{% url 'base:contact' %}">adeyeye1034@gmail.com</a>
+                        </p>
+                        
+                    </div>
+                </div>
+            
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h2>Career Objectives</h2>
+                        <br>
+                        <p>
+                            I aspire to work assiduously and meticulously towards achieving the objectives of any
+                            institution I find myself and to seek research opportunities that would sharpen
+                            my creative skills in a challenging and diverse working environment.
+                        </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h2>Education</h2>
+                        <br>
+                        <h4>BSc. Computer Science, Achievers University, Owo, Ondo State. Nigeria</h4>
+                        <h5 style="color: lightgrey;">October 2016 - January 2021</h5>
+                        <br>
+                        <h4>Senior School Leaving Certificate</h4>
+                        <h5 style="color: lightgrey;">September 2007 - July 2013</h5>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h2>Skills and Abilities</h2>
+                        <br>
+                        <p>
+                            Skills  include:
+                        </p>
+                        <ul>
+                            <li>Backend development using django</li>
+                            <li>Data analysis using Pandas</li>
+                            <li>Proficiency in Microsoft Office documents</li>
+                        </ul>
+                        <br>
+                        <p>Abilities include:</p>
+                        <ul>
+                            <li>Quick learning ability</li>
+                            <li>Good time and task management</li>
+                            <li>A good team player</li>
+                            <li>Big picture focus</li>
+                            <li>Abilty to execute responsibilities with little or no supervision</li>
+                        </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h2>References</h2>
+                        <br>
+                        <h4>Dr. Robert Waidi Odewale at Anchor University, Ayobo, Lagos</h4>
+                        <h5 style="color: lightgrey;">email: rowodewale@yahoo.com</h5>
+                        <br>
+                        <h4>Dr. Oladapo Fapetu at Federal University, Oye-Ekiti.</h4>
+                        <h5 style="color: lightgrey;">email: drfapetu@gmail.com</h5>
+                </div>
+                <br>
+            </div>
+            <br>
+            <div class="col-md-9">
+                <div class="card card-body h-100">
+                    <h2>Proudly sponsored by:</h2>
+                    <br>
+                    <a href="https://hng.tech/">
+                    <img src="{% static 'images/brand-logo.jpg'%}" width="auto" height="auto" >
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br>
+        </div>
+    </body>
+</html> 
